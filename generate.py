@@ -4,6 +4,7 @@ import requests
 
 sitemap = 'https://blog.zykjofficial.top/sitemap.xml'
 
+
 html = urllib.request.urlopen(sitemap).read().decode('utf-8')
 result = re.findall(re.compile(r'(?<=<loc>).*?(?=</loc>)'), html)
 
