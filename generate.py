@@ -2,7 +2,7 @@ import re
 import urllib
 import requests
 
-sitemap = 'https://blog.zykjofficial.top/sitemap.xml'
+sitemap = 'https://zykj.js.org/sitemap.xml'
 
 
 html = urllib.request.urlopen(sitemap).read().decode('utf-8')
